@@ -9,3 +9,12 @@
 	font-family: 'Open Sans Condensed', sans-serif;
 
 }
+
+.featurette-divider{
+	padding: 0!important;
+	position: relative;
+}
+
+.row.featurette{
+	padding: 0!important;
+}
