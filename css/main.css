@@ -1,7 +1,22 @@
+h2{
+	font-family: 'Slabo 27px', serif;
+}
+
+h3{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+}
+
+.btn{
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size: 18px;
+}
+.lead{
+	font-family:'Josefin Sans', sans-serif;
+}
 .navbar-brand{
 	font-size: 36px;
 	font-family: 'Open Sans Condensed', sans-serif;
-
 }
 
 #navbar{
@@ -18,3 +33,4 @@
 .row.featurette{
 	padding: 0!important;
 }
+
