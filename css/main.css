@@ -41,7 +41,6 @@ body{
 	padding-top: 60px;
 }
 
-
 #embed-map-display img {
 	max-width: none!important;
 	background: none!important;
@@ -53,6 +52,9 @@ body{
 	margin-bottom: -60px!important;
 }
 
+#located{
+		margin-top: -600px!important;
+}
 
 
 /** NAV BAR COLORS **/ 
@@ -79,4 +81,20 @@ body{
 }
 .nav li:hover:nth-child(8n+8), .nav li.active:nth-child(8n+8){
   border-bottom: #62C2E4 3px solid;
+}
+
+
+/** GALLERY **/
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
 }
