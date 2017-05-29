@@ -7,39 +7,11 @@ h3{
 	font-weight: bold;
 }
 
-.btn{
-	font-family: 'Ubuntu Condensed', sans-serif;
-	font-size: 18px;
-}
-.lead{
-	font-family:'Josefin Sans', sans-serif;
-}
-.navbar-brand{
-	font-size: 36px;
-	font-family: 'Open Sans Condensed', sans-serif;
-}
-
-#navbar{
-	font-size: 24px;
-	font-family: 'Open Sans Condensed', sans-serif;
-
-}
-
-.featurette-divider{
-	padding: 0!important;
-	position: relative;
-	
-}
-
-.row.featurette{
-	padding: 0!important;
-	margin-top: -40px!important;
-}
-
 body{
 	background-color: white;
 	padding-top: 60px;
 }
+
 
 #embed-map-display img {
 	max-width: none!important;
@@ -52,7 +24,54 @@ body{
 	margin-bottom: -7%!important;
 }
 
+#navbar{
+	font-size: 24px;
+	font-family: 'Open Sans Condensed', sans-serif;
 
+}
+
+#forms{
+  font-size: 22px;
+}
+
+
+.jumbotron{
+    border-radius:0px!important;
+    box-shadow:1px 1px 4px rgba(0,0,0,0.4);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(https://static.pexels.com/photos/24324/pexels-photo.jpg); 
+    position: relative;
+    height: 100%;
+
+
+}
+
+.btn{
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size: 18px;
+}
+
+.lead{
+	font-family:'Josefin Sans', sans-serif;
+}
+
+.navbar-brand{
+	font-size: 36px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.featurette-divider{
+	padding: 0!important;
+	position: relative;
+	
+}
+
+.row.featurette{
+	padding: 0!important;
+	margin-top: -40px!important;
+}
 /** NAV BAR COLORS **/ 
 .nav li:hover:nth-child(8n+1), .nav li.active:nth-child(8n+1){
   border-bottom: #C4E17F 3px solid;
